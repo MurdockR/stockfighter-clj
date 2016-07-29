@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: cc.qbits/jet:0.7.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cc/qbits/jet/0.7.9/jet-0.7.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
