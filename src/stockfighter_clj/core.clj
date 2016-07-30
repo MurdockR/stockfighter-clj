@@ -49,13 +49,13 @@
   [{:keys [account venue stock price qty direction orderType]}]
   (http/post client (build-url ["venues" venue "stocks" stock "orders"])
              {:headers {"X-Starfighter-Authorization" (env :api-key)}
-                       :body (json/encode {"account" account
-                                           "venue" venue
-                                           "stock" stock
-                                           "price" price
-                                           "qty" qty
-                                           "direction" direction
-                                           "orderType" orderType})}))
+              :body (json/encode {"account" account
+                                  "venue" venue
+                                  "stock" stock
+                                  "price" price
+                                  "qty" qty
+                                  "direction" direction
+                                  "orderType" orderType})}))
 
 (defmethod order :cancel
   [{:keys [id venue stock]}]
@@ -64,12 +64,15 @@
 
 (defmethod order :status
   [{:keys [id venue stock]}]
-  (http/get client (build-url ["venues" venue "stocks" stock "orders" id])))
+  (http/get client (build-url ["venues" venue "stocks" stock "orders" id])
+                   {:headers {"X-Starfighter-Authorization" (env :api-key)}}))
 
 (defmethod order :all-orders
   [{:keys [venue account]}]
-  (http/get client (build-url ["venues" venue "acccounts" account "orders"])))
+  (http/get client (build-url ["venues" venue "accounts" account "orders"])
+                   {:headers {"X-Starfighter-Authorization" (env :api-key)}}))
 
 (defmethod order :stock-orders
   [{:keys [venue account stock]}]
-  (http/get client (build-url ["venues" venue "acccounts" account "stocks" stock "orders"])))
+  (http/get client (build-url ["venues" venue "accounts" account "stocks" stock "orders"])
+                   {:headers {"X-Starfighter-Authorization" (env :api-key)}}))

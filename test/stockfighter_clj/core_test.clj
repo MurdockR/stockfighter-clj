@@ -15,7 +15,11 @@
   (= (map->keySet m) k))
 
 (def test-order
-  {:account "EXB123456" :venue "TESTEX" :stock "FOOBAR" :price 10000 :qty 100 :direction "buy" :orderType "fill-or-kill"})
+  {:action :place :account "EXB123456" :venue "TESTEX" :stock "FOOBAR" :price 10000 :qty 100 :direction "buy" :orderType "fill-or-kill"})
+
+(def order-res-keys
+  #{:ok :symbol :venue :direction :originalQty :qty :price :orderType :id :account :ts :fills :totalFilled :open})
+
 
 (deftest query-test
   (testing "Can check api status"
@@ -27,13 +31,23 @@
   (testing "Can get orderbook for a stock"
     (is (keys-present (q {:tag :orderbook :venue "TESTEX" :stock "FOOBAR"}) #{:ok :venue :symbol :ts :bids :asks})))
   (testing "Can get a quote for a stock"
-    (is (keys-present (q {:tag :quote :venue "TESTEX" :stock "FOOBAR"}) #{:ok :symbol :venue :ask :bidSize :askSize :bidDepth :askDepth :last :lastSize :lastTrade :quoteTime}))))
+    (is (keys-present (q {:tag :quote :venue "TESTEX" :stock "FOOBAR"}) #{:ok :symbol :venue :bidSize :askSize :bidDepth :askDepth :last :lastSize :lastTrade :quoteTime}))))
 
 (deftest order-test
   (testing "can place order"
-    (is (= '(:ok :symbol :venue :direction :originalQty :qty :price :orderType :id :account :ts :fills :totalFilled :open)
-            (o (assoc test-order :action :place)))))
-  (testing "can cancel order")
-  (testing "can check order status")
-  (testing "can get status for all orders for an account on a given venue")
-  (testing "can get status of all orders for a given stock and account on a given venue"))
+    (is (keys-present (o test-order)
+                      order-res-keys)))
+  (testing "can cancel order"
+    (let [id (:id (o (assoc test-order :action :place)))]
+      (is (keys-present (o {:action :cancel :id id :venue "TESTEX" :stock "FOOBAR"})
+                        order-res-keys))))
+  (testing "can check order status"
+    (let [id (:id (o test-order))]
+      (is (keys-present (o {:action :status :id id :venue "TESTEX" :stock "FOOBAR"})
+                        order-res-keys))))
+  (testing "can get status for all orders for an account on a given venue"
+    (is (keys-present (o {:action :all-orders :venue "TESTEX" :account "EXB123456"})
+                      #{:ok :venue :orders})))
+  (testing "can get status of all orders for a given stock and account on a given venue"
+    (is (keys-present (o {:action :stock-orders :venue "TESTEX" :account "EXB123456" :stock "FOOBAR"})
+                      #{:ok :venue :orders}))))

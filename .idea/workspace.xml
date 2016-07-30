@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18a8fe1e-465f-46ed-9225-17fa06e250a7" name="Default" comment="" />
+    <list default="true" id="18a8fe1e-465f-46ed-9225-17fa06e250a7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stockfighter_clj/core.clj" afterPath="$PROJECT_DIR$/src/stockfighter_clj/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/stockfighter_clj/core_test.clj" afterPath="$PROJECT_DIR$/test/stockfighter_clj/core_test.clj" />
+    </list>
     <ignored path="stockfighter-clj.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/stockfighter_clj/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="853">
+              <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -34,17 +39,17 @@
         <entry file="file://$PROJECT_DIR$/profiles.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
+      <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/stockfighter_clj/core_test.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,6 +67,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -72,17 +80,17 @@
       <list>
         <option value="$PROJECT_DIR$/profiles.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/io/ByteArrayOutputStream.class" />
         <option value="$PROJECT_DIR$/src/stockfighter_clj/core.clj" />
         <option value="$PROJECT_DIR$/test/stockfighter_clj/core_test.clj" />
-        <option value="$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/io/ByteArrayOutputStream.class" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1600" />
+    <option name="x" value="1920" />
     <option name="y" value="24" />
-    <option name="width" value="1600" />
-    <option name="height" value="876" />
+    <option name="width" value="1920" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -91,7 +99,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -109,10 +117,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
@@ -120,9 +128,9 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Clojure.IDE" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../photo-lein" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1469518893457">{:repl-history {:ide [], :local [&quot;(go (println (&lt;! (query {:tag :heartbeat}))))&quot; &quot;(go (println (:body (&lt;! (query {:tag :heartbeat})))))&quot; &quot;(go (println (&lt;! (:body (&lt;! (query {:tag :heartbeat}))))))&quot; &quot;(get :test {})&quot; &quot;(true? nil)&quot; &quot;(true? 1)&quot; &quot;(apply str (interpose \&quot;/\&quot; \&quot;a\&quot; \&quot;b\&quot; \&quot;c\&quot;))&quot; &quot;(apply str (interpose \&quot;/\&quot; [\&quot;a\&quot; \&quot;b\&quot; \&quot;c\&quot;]))&quot; &quot;(interpose \&quot;/\&quot; '(\&quot;a\&quot; \&quot;v\&quot; \&quot;a\&quot;))&quot; &quot;(segment \&quot;heartbeat\&quot;)&quot; &quot;(get-body (query {:tag :heartbeat}))\n                  &quot; &quot;(interpose&quot; &quot;(interpose \&quot;/\&quot; \&quot;heartbeat\&quot;)&quot; &quot;(query {:tag :stocks :venue \&quot;TESTEX\&quot;})&quot; &quot;(get-body (query {:tag :stocks :venue \&quot;TESTEX\&quot;}))&quot; &quot;(query {:tag :heartbeat})&quot; &quot;(get-body (query {:tag :heartbeat}))&quot; &quot;(get-body (query {:tag :heartbeat :venue \&quot;TESTEX\&quot;}))&quot; &quot;(query {:tag :orderbook :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;})&quot; &quot;(get-body (query {:tag :orderbook :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;}))&quot; &quot;(env)&quot; &quot;(env :dev)&quot; &quot;(env :api-key)&quot; &quot;(env :env)&quot; &quot;(System/getenv)&quot; &quot;(get-body (query {:tag :quote :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;}))&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1469840633687">{:repl-history {:ide [], :local [&quot;(go (println (&lt;! (query {:tag :heartbeat}))))&quot; &quot;(go (println (:body (&lt;! (query {:tag :heartbeat})))))&quot; &quot;(go (println (&lt;! (:body (&lt;! (query {:tag :heartbeat}))))))&quot; &quot;(get :test {})&quot; &quot;(true? nil)&quot; &quot;(true? 1)&quot; &quot;(apply str (interpose \&quot;/\&quot; \&quot;a\&quot; \&quot;b\&quot; \&quot;c\&quot;))&quot; &quot;(apply str (interpose \&quot;/\&quot; [\&quot;a\&quot; \&quot;b\&quot; \&quot;c\&quot;]))&quot; &quot;(interpose \&quot;/\&quot; '(\&quot;a\&quot; \&quot;v\&quot; \&quot;a\&quot;))&quot; &quot;(segment \&quot;heartbeat\&quot;)&quot; &quot;(get-body (query {:tag :heartbeat}))\n                  &quot; &quot;(interpose&quot; &quot;(interpose \&quot;/\&quot; \&quot;heartbeat\&quot;)&quot; &quot;(query {:tag :stocks :venue \&quot;TESTEX\&quot;})&quot; &quot;(get-body (query {:tag :stocks :venue \&quot;TESTEX\&quot;}))&quot; &quot;(query {:tag :heartbeat})&quot; &quot;(get-body (query {:tag :heartbeat}))&quot; &quot;(get-body (query {:tag :heartbeat :venue \&quot;TESTEX\&quot;}))&quot; &quot;(query {:tag :orderbook :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;})&quot; &quot;(get-body (query {:tag :orderbook :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;}))&quot; &quot;(env)&quot; &quot;(env :dev)&quot; &quot;(env :api-key)&quot; &quot;(env :env)&quot; &quot;(System/getenv)&quot; &quot;(get-body (query {:tag :quote :venue \&quot;TESTEX\&quot; :stock \&quot;FOOBAR\&quot;}))&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.Repl">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -198,16 +206,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="additionalArguments" value="" />
-      <option name="command" value="run" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="printBacktrace" value="false" />
-      <module name="stockfighter-clj" />
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local">
@@ -423,8 +421,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1600" y="24" width="1600" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="1920" y="24" width="1920" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -433,19 +431,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41570142" sideWeight="0.5102564" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41568837" sideWeight="0.5102564" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4163449" sideWeight="0.4897436" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.4948718" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -467,15 +465,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/stockfighter_clj/core_test.clj</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -484,6 +474,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/stockfighter_clj/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stockfighter_clj/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/stockfighter_clj/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
@@ -788,6 +810,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cc/qbits/jet/0.7.9/jet-0.7.9.jar!/qbits/jet/client/http.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/io/ByteArrayOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/spectesting/src/spectesting/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -796,44 +840,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/cc/qbits/jet/0.7.9/jet-0.7.9.jar!/qbits/jet/client/http.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="282" column="0" selection-start-line="282" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/io/ByteArrayOutputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/stockfighter_clj/core_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stockfighter_clj/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="853">
+          <caret line="76" column="49" selection-start-line="76" selection-start-column="49" selection-end-line="76" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/stockfighter_clj/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
